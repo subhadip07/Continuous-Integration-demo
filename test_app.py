@@ -9,8 +9,8 @@ class TestMathFunctions(unittest.TestCase):
         self.assertEqual(add(-1, 1), 0)
 
     def test_sub(self):
-        self.assertEqual(sub(4, 5), -1)
-        self.assertEqual(sub(-1, -1), 0)
+        self.assertEqual(subtract(4, 5), -1)
+        self.assertEqual(subtract(-1, -1), 0)
 
     def test_mul(self):
         self.assertEqual(mul(4, 5), 20)
